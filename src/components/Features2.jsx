@@ -34,27 +34,25 @@ export const Features2 = () => (
 
         <div className="w-full lg:w-1/2 mb-12 lg:mb-0 xl:pl-8">
           <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
-            <span className="block-subtitle">Make Data-Driven Decisions</span>
+            <span className="block-subtitle">From Concept to Creation: We’ve Got You Covered!</span>
             <h2 className="mt-6 mb-8 text-4xl lg:text-5xl block-big-title">
-              Issue tracking you’ll enjoy using
+              Crafting Websites That Captivate
             </h2>
             <p className="mb-12 text-secondaryText leading-loose">
-              Monitor and track data issues with ease using our intuitive and
-              efficient issue tracking system. Stay ahead of potential problems
-              and improve your workflow.
+              W naszej firmie tworzymy strony internetowe, które nie tylko przyciągają wzrok, ale także skutecznie prezentują ofertę naszych klientów. Nasz unikalny design łączy estetykę z funkcjonalnością, zapewniając, że Twoje produkty i usługi są w centrum uwagi.
             </p>
             <ul className="mb-6 text-primaryText">
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Collaborative environment</span>
+                <span>Optymalizacja treści</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Smart issue categorization</span>
+                <span>Wygląd strony www zgodny z celami biznesowymi</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Customizable notifications</span>
+                <span>Konsultacje marketingowe</span>
               </li>
             </ul>
           </div>

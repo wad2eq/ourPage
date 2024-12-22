@@ -3,6 +3,7 @@ import { useState } from "react";
 
 import { InvitationModal } from "./InvitationModal";
 import featuresdiagonal from "../assets/images/featuresdiagonal.jpg";
+import {CheckArrowIcon} from "../assets/icons/CheckArrowIcon.jsx";
 
 export const FeaturesDiagonal = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -35,34 +36,50 @@ export const FeaturesDiagonal = () => {
             <h2 className="mt-10 mb-8 text-4xl lg:text-5xl block-big-title">
               Build &amp; Launch without problems
             </h2>
-            <p className="mb-16 text-secondaryText leading-loose">
-              Our platform enables you to launch your data-driven projects with
-              ease. Boost productivity and achieve better results. Empower your
-              decision-making with advanced analytics
+            <p className="mb-12 text-secondaryText leading-loose">
+              Zbuduj i uruchom swoją stronę bez zmartwień. Dzięki Webflow masz pewność, że Twoja strona będzie działać
+              stabilnie, bezpiecznie i zawsze będzie na czasie. Automatyczne tworzenie kopii zapasowych, zaawansowane
+              zabezpieczenia i regularne aktualizacje to tylko niektóre z funkcji, które zapewnią spokój Tobie i Twoim
+              klientom. Ponadto, nasze doświadczone wsparcie techniczne jest zawsze gotowe Ci pomóc
             </p>
+            <ul className="text-primaryText">
+              <li className="mb-4 flex">
+                <CheckArrowIcon/>
+                <span>Backup</span>
+              </li>
+              <li className="mb-4 flex">
+                <CheckArrowIcon/>
+                <span>Regular updates</span>
+              </li>
+              <li className="mb-4 flex">
+                <CheckArrowIcon/>
+                <span>Technical support</span>
+              </li>
+            </ul>
+
+          </div>
+          <div className="w-4/5 lg:w-1/2 lg:pl-16 flex flex-col  mx-auto pt-16 lg:pt-0">
+            <img
+                src={featuresdiagonal.src}
+                alt="Feature image"
+                className="rounded-xl  main-border-gray"
+            />
             <button
-              className="w-[210px] h-12 contained-button mr-10 "
-              onClick={() => setIsModalOpen(true)}
-              aria-label="Get started"
+                className="w-[210px] h-12 contained-button mr-10 mt-10"
+                onClick={() => setIsModalOpen(true)}
+                aria-label="Get started"
             >
               Get Started
             </button>
-          </div>
-          <div className="w-4/5 lg:w-1/2 lg:pl-16 flex justify-center mx-auto pt-16 lg:pt-0">
-            <img
-              src={featuresdiagonal.src}
-              alt="Feature image"
-              className="rounded-xl  main-border-gray"
-            />
           </div>
         </div>
       </motion.div>
       <div className="shape-divider-top-1665696661 w-full">
         <svg
-          data-name="Layer 1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 120"
-          preserveAspectRatio="none"
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
           className="bg-bgDark2 fill-bgDark2"
         >
           <path
