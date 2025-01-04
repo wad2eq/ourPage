@@ -48,15 +48,15 @@ export const Features1 = () => {
                 <ul className="mb-6 text-primaryText">
                   <li className="mb-4 flex">
                     <CheckArrowIcon/>
-                    <span>Szybkie ładowanie i optymalizacja</span>
+                    <span>Fast Loading and Optimization</span>
                   </li>
                   <li className="mb-4 flex">
                     <CheckArrowIcon/>
-                    <span>Responsywność</span>
+                    <span>Fully Responsive Design for All Devices</span>
                   </li>
                   <li className="mb-4 flex">
                     <CheckArrowIcon/>
-                    <span>Zintegrowane narzędzia SEO</span>
+                    <span>Integrated SEO Tools</span>
                   </li>
                 </ul>
               </div>

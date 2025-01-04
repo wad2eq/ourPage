@@ -23,26 +23,13 @@ export const InvitationModal = ({ setIsOpen }) => (
           <div className="flex relative">
             <div className="w-1/2 hidden lg:inline">
               <h2 className="mt-6 mb-2 text-5xl font-bold tracking-normal text-primaryText">
-                Projektowanie i wdrożenie strony
+              Website design and implementation. 
               </h2>
               <h2 className="text-5xl font-bold tracking-normal text-secondaryColor">
-                Od koncepcji po uruchomienie gotowej strony.
+              From concept to launch.
               </h2>
 
-              <ul className="mb-6 text-primaryText mt-12">
-                <li className="mb-4 flex">
-                  <CheckArrowIcon />
-                  <span>Szybkie ładowanie strony:</span>
-                </li>
-                <li className="mb-4 flex">
-                  <CheckArrowIcon />
-                  <span>Design dopasowany do Twojej marki</span>
-                </li>
-                <li className="mb-4 flex">
-                  <CheckArrowIcon />
-                  <span>Perfectly Optimized for Mobile</span>
-                </li>
-              </ul>
+             
             </div>
             <div className="w-full lg:w-1/2 flex items-center flex-col justify-center pt-24 sm:pt-0">
               <div className="flex inline lg:hidden justify-start items-center grow basis-0 mb-8 pr-6">

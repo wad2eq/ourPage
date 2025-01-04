@@ -39,20 +39,21 @@ export const Features2 = () => (
               Crafting Websites That Captivate
             </h2>
             <p className="mb-12 text-secondaryText leading-loose">
-              W naszej firmie tworzymy strony internetowe, które nie tylko przyciągają wzrok, ale także skutecznie prezentują ofertę naszych klientów. Nasz unikalny design łączy estetykę z funkcjonalnością, zapewniając, że Twoje produkty i usługi są w centrum uwagi.
+            <strong>We create websites that not only catch the eye but also effectively showcase our clients' offerings.</strong>
+            Our unique designs combine aesthetics with functionality, ensuring your products and services take center stage.
             </p>
             <ul className="mb-6 text-primaryText">
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Optymalizacja treści</span>
+                <span>Content Optimization</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Wygląd strony www zgodny z celami biznesowymi</span>
+                <span>Web Design Aligned with Business Goals</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Konsultacje marketingowe</span>
+                <span>Marketing Consultations</span>
               </li>
             </ul>
           </div>
