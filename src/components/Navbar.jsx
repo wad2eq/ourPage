@@ -2,7 +2,6 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
-import { GithubIcon } from "../assets/icons/GithubIcon";
 
 const navbarLinks = [
   { label: "Home", href: "/#home", ariaLabel: "Home" },
@@ -11,6 +10,10 @@ const navbarLinks = [
   // { label: "Feedback", href: "/#feedback", ariaLabel: "Feedback" },
   { label: "FAQ", href: "/#FAQ", ariaLabel: "FAQ" },
 ];
+
+const pageData ={
+  email: "hello@nazwa.www"
+}
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -67,12 +70,11 @@ export const Navbar = () => {
             <a
               className="text-white main-border-gray rounded-xl
            bg-bgDark2 hover:bg-bgDark3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
-              href="https://github.com/matt765/Tidestream"
-              target="_blank"
-              aria-label="source code"
+              aria-label="contact"
+              href={`mailto:${pageData.email}`}
+              onClick={() => setIsModalOpes(true)}
             >
-              <GithubIcon />
-              <span className="pt-px">Source code</span>
+              <span className="pt-px">{pageData.email}</span>
             </a>
           </div>
         </motion.div>
@@ -112,11 +114,10 @@ export const Navbar = () => {
               ))}
               <a
                 className="outlined-button pl-6 pr-8 pt-2 pb-2  flex"
-                href="https://github.com/matt765/Tidestream"
                 target="_blank"
+                href={`mailto:${pageData.email}`}
               >
-                <GithubIcon />
-                Source code
+                {pageData.email}
               </a>
             </div>
           </motion.div>
