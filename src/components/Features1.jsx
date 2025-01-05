@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 
-import feature1 from "../assets/images/feature1.jpg";
-import feature2 from "../assets/images/feature2.jpg";
-import feature3 from "../assets/images/feature3.jpg";
+import feature1 from "../assets/images/chart_conversion.jpeg";
+import feature2 from "../assets/images/chart_user.jpeg";
+import feature3 from "../assets/images/chart_page_speed.jpeg";
 import feature4 from "../assets/images/feature4.jpg";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
@@ -90,14 +90,14 @@ export const Features1 = () => {
                       aria-label="Feature image 3"
                   />
                 </div>
-                <div className="py-3 pl-3 pr-2 rounded-lg ">
-                  <img
-                      src={feature4.src}
-                      alt="Feature image 4"
-                      className="rounded-xl  main-border-gray"
-                      aria-label="Feature image 4"
-                  />
-                </div>
+                {/*<div className="py-3 pl-3 pr-2 rounded-lg ">*/}
+                {/*  <img*/}
+                {/*      src={feature4.src}*/}
+                {/*      alt="Feature image 4"*/}
+                {/*      className="rounded-xl  main-border-gray"*/}
+                {/*      aria-label="Feature image 4"*/}
+                {/*  />*/}
+                {/*</div>*/}
               </div>
             </div>
           </div>
