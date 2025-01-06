@@ -15,7 +15,7 @@ const FAQData = [
   {
     question: "How do you ensure my website is optimized for SEO?",
     answer:
-      "We offer a 30-day money-back guarantee on all our plans. If you're not satisfied with our product, simply contact our support team within 30 days of purchase for a full refund.",
+      "We employ a range of proven SEO strategies to optimize your website, including keyword research, on-page optimization (title tags, meta descriptions, content optimization), technical SEO (site speed, mobile-friendliness, site structure), and link building.",
   },
   {
     question: "Who provides the content for the website?",

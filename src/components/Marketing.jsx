@@ -45,7 +45,6 @@ const seo_content = [
       "Final decisions are yours",
       "Flexibility and customization",
       "A team of experts",
-      "Understanding your business needs",
     ],
   },
 ];
