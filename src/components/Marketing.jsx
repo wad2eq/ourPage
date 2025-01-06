@@ -15,11 +15,11 @@ const seo_content = [
       "Stay ahead of the competition. Our SEO strategies will make your website more visible than your rivals' sites, giving you a competitive edge in the market.",
     subtitle: "Enhance your online presence",
     list: [
-      "Keyword Analysis",
-      "Content Optimization",
-      "Link Building",
-      "Mobile Optimization",
-      "Online Reputation Management",
+      "Keyword analysis",
+      "Content optimization",
+      "Link building",
+      "Mobile optimization",
+      "Online reputation management",
     ],
   },
   {
@@ -28,11 +28,11 @@ const seo_content = [
       "Boost your website's performance and maximize profits. Our conversion rate optimization (CRO) services will help you turn visitors into loyal customers.",
     subtitle: "Maximize results",
     list: [
-      "User Behavior Analysis",
-      "Form Optimization",
+      "User behavior analysis",
+      "Form optimization",
       "Improved UX/UI",
-      "Content Personalization",
-      "Call-to-Action (CTA) Optimization",
+      "Content personalization",
+      "Call-to-Action (CTA) optimization",
     ],
   },
   {
@@ -41,11 +41,11 @@ const seo_content = [
       "This is a comprehensive service that ensures your website remains fully functional, up-to-date, and secure. Just like regular car servicing, it helps you avoid major issues and guarantees long-term, hassle-free operation.",
     subtitle: "Avoid costly downtime",
     list: [
-      "Fast Task Completion",
-      "Final Decisions Are Yours",
-      "Flexibility and Customization",
-      "A Team of Experts",
-      "Understanding Your Business Needs",
+      "Fast task completion",
+      "Final decisions are yours",
+      "Flexibility and customization",
+      "A team of experts",
+      "Understanding your business needs",
     ],
   },
 ];
@@ -78,7 +78,7 @@ export const Marketing = () => {
             <div className="flex flex-wrap flex-col lg:flex-row -mx-4 items-stretch mt-20">
               {seo_content.map((item, index) => (
                 <div
-                  className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0 flex flex-1"
+                  className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0 flex flex-1 mx-auto"
                   key={index}
                 >
                   <div className="p-8  bg-bgDark3 rounded-3xl flex flex-col">

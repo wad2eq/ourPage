@@ -35,7 +35,7 @@ export const Features1 = () => {
             transition={{duration: 0.5, delay: 0.2}}
         >
           <div
-              className="flex flex-wrap items-center 2xl:w-[1450px] xl:w-[1300px] w-11/12 mx-auto md:pl-4 xl:pr-16 xl:pl-16 xl:-mt-60 xl:mb-60 mb-40 -mt-40 z-20 relative">
+              className="flex flex-wrap items-center 2xl:w-[1450px] xl:w-[1300px] w-11/12 mx-auto md:pl-4 xl:pr-16 xl:pl-16 xl:-mt-60 xl:mb-60 md:mb-40 -mt-40 z-20 relative">
             <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
               <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
                 <span className="block-subtitle">Transforming Ideas into Stunning Websites</span>
@@ -43,20 +43,21 @@ export const Features1 = () => {
                   Your new Website, Perfectly Optimized for Every Device!
                 </h2>
                 <p className="mb-10 text-secondaryText leading-loose">
-                  Create a stunning online presence with a website that's fast, responsive, and tailored to your needs. Designed for flawless performance on desktops, tablets, and smartphones—your perfect site starts here!
+                  Create a stunning online presence with a website that's fast, responsive, and tailored to your needs. Designed for flawless performance on desktops, tablets, and smartphones.
+                  <br/><strong className="text-rose-300">Your perfect site starts here!</strong>
                 </p>
                 <ul className="mb-6 text-primaryText">
                   <li className="mb-4 flex">
                     <CheckArrowIcon/>
-                    <span>Fast Loading and Optimization</span>
+                    <span>Fast loading and optimization</span>
                   </li>
                   <li className="mb-4 flex">
                     <CheckArrowIcon/>
-                    <span>Fully Responsive Design for All Devices</span>
+                    <span>Fully responsive design for all devices</span>
                   </li>
                   <li className="mb-4 flex">
                     <CheckArrowIcon/>
-                    <span>Integrated SEO Tools</span>
+                    <span>Integrated <b>SEO</b> tools</span>
                   </li>
                 </ul>
               </div>

@@ -39,21 +39,21 @@ export const Features2 = () => (
               Crafting Websites That Captivate
             </h2>
             <p className="mb-12 text-secondaryText leading-loose">
-            <strong>We create websites that not only catch the eye but also effectively showcase our clients' offerings.</strong>
+            <strong>We create websites that not only catch the eye but also effectively showcase our clients' offerings. </strong>
             Our unique designs combine aesthetics with functionality, ensuring your products and services take center stage.
             </p>
             <ul className="mb-6 text-primaryText">
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Content Optimization</span>
+                <span>Content optimization</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Web Design Aligned with Business Goals</span>
+                <span>Web design aligned with business goals</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Marketing Consultations</span>
+                <span>Marketing consultations</span>
               </li>
             </ul>
           </div>

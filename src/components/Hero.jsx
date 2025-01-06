@@ -38,7 +38,7 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <h2 className="text-secondaryText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-12 sm:px-48 ">
-            Do you want your website not only to look amazing but also to attract new customers and boost sales? Affordable and fast.
+            Do you want your website not only to look amazing but also to attract new customers and boost sales?<br/> <b className="text-rose-300" >Affordable and fast.</b>
           </h2>
         </motion.div>
         <motion.div
