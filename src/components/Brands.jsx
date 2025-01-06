@@ -1,10 +1,12 @@
 import { motion } from "framer-motion";
 import  template from  '../assets/templates/template1.webp'
 import  template2 from  '../assets/templates/template2.webp'
+import charlesBusinessConsulting from  '../assets/templates/charles-business-consulting.webp';
+import LinoorDigitalAgencyServices from  '../assets/templates/LinoorDigitalAgencyServices.avif';
 
 export const Brands = () => (
-  <section className="py-12 sm:py-24 bg-bgDark1 w-full  lg:mt-16 mb-8 lg:mb-16">
-    <motion.div
+    <section className="py-12 sm:py-24 bg-bgDark1 w-full  lg:mt-16 mb-8 lg:mb-16" id="brands">
+      <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
@@ -25,27 +27,23 @@ export const Brands = () => (
           <div className="lg:w-1/2 mx-auto lg:mx-0 lg:pl-10">
             <div className="grid grid-cols-2">
               <div className="justify-center p-3">
-                <a href="https://matias-react.vercel.app/?storefront=envato-elements" referrerPolicy="no-referrer"><img src={template2.src} /></a>
+                <a href="https://matias-react.vercel.app/?storefront=envato-elements" referrerPolicy="no-referrer"><img src={template.src} /></a>
               </div>
               <div className=" justify-center p-3">
-                <img src={template2.src}/>
+              <a href="https://gramentheme.com/html/fresheat/about.html" referrerPolicy="no-referrer" target="_blank">  <img src={template2.src}/></a>
               </div>
               <div className=" justify-center p-3">
-                <img src={template.src} />
+                <a href="https://html.creativegigstf.com/charles/?storefront=envato-elements" referrerPolicy="no-referrer" target="_blank">
+                  <img src={charlesBusinessConsulting.src}/></a>
               </div>
               <div className="justify-center p-3">
-                <img src={template2.src}/>
-              </div>
-              <div className="justify-center p-3">
-                <img src={template2.src}/>
-              </div>
-              <div className="justify-center p-3">
-                <img src={template2.src}/>
+                <a href="http://pixydrops.com/linoorhtml?storefront=envato-elements" referrerPolicy="no-referrer" target="_blank">
+                  <img src={LinoorDigitalAgencyServices.src}/></a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </motion.div>
-  </section>
+      </motion.div>
+    </section>
 );
