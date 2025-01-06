@@ -90,12 +90,11 @@ export const Marketing = () => {
                       )}
                       <div className="text-gray-500 ">{item.subtitle}</div>
                     </div>
-                    <h2 className="text-3xl font-bold text-primaryText text-left mt-4 mr-2">
-                      {" "}
+                    <h3 className="text-3xl font-bold text-primaryText text-left mt-4 mr-2">
                       {item.title}
-                    </h2>
-                    <h3 className="mb-2 text-xl font-bold font-heading text-primaryText text-left"></h3>
-                    <p className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
+                    </h3>
+                    {/*<h3 className="mb-2 text-xl font-bold font-heading text-primaryText text-left"></h3>*/}
+                    <p className="mt-4 mb-6 2xl:mb-10 text-gray-400 leading-loose text-left">
                       {item.description}
                     </p>
                     <ul className="mb-2 2xl:mb-6 text-primaryText mt-auto">

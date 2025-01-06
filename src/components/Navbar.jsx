@@ -74,12 +74,12 @@ export const Navbar = () => {
               href={`mailto:${pageData.email}`}
               onClick={() => setIsModalOpes(true)}
             >
-              <span className="pt-px">{pageData.email}</span>
+              <span className="pt-px font-bold text-rose-300">{pageData.email}</span>
             </a>
           </div>
         </motion.div>
         <div
-          className="lg:hidden flex flex-col  px-2 py-3 border-solid border border-gray-600 rounded-md cursor-pointer hover:bg-bgDark2"
+          className="lg:hidden flex flex-col  mr-2 px-2 py-3 border-solid border border-gray-600 rounded-md cursor-pointer hover:bg-bgDark2"
           onClick={() => setIsOpen(!isOpen)}
         >
           <div className="w-5 h-0.5 bg-gray-500  mb-1"></div>
@@ -113,11 +113,11 @@ export const Navbar = () => {
                 </a>
               ))}
               <a
-                className="outlined-button pl-6 pr-8 pt-2 pb-2  flex"
+                className="outlined-button pl-6 pr-8 pt-2 pb-2  flex font-bold"
                 target="_blank"
                 href={`mailto:${pageData.email}`}
               >
-                {pageData.email}
+                <span className="pt-px font-bold text-rose-300">{pageData.email}</span>
               </a>
             </div>
           </motion.div>
