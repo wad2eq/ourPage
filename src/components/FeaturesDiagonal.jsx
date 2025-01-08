@@ -37,7 +37,7 @@ export const FeaturesDiagonal = () => {
               Build &amp; Launch without problems
             </h2>
             <p className="mb-12 text-secondaryText leading-loose">
-              <strong>Build and launch your website without worries. With Webflow</strong>, you
+              <strong>Build and launch your website without worries.</strong>You
               can be confident that your site will run smoothly, securely, and
               stay up-to-date. Automatic backups, advanced security features,
               and regular updates are just a few of the benefits that ensure

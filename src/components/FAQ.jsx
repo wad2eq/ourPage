@@ -20,7 +20,7 @@ const FAQData = [
   {
     question: "Who provides the content for the website?",
     answer:
-      "Our dedicated support team is here to help. You can reach out to us through the contact form on our website, send an email, or engage with us via live chat. We'll be happy to assist you with any questions or concerns you may have",
+      `We handle all aspects of content creation, saving you time and ensuring professional, SEO-optimized results. Our services cover everything from writing compelling copy and selecting relevant visuals to optimizing your content for search engines.But if you prefer to create your own content, you retain full control and can leverage your existing resources. We'll provide support with formatting and optimization to maximize its effectiveness.`,
   },
 ];
 

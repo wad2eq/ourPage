@@ -70,8 +70,7 @@ export const Marketing = () => {
                 Effective web design for client acquisition.
               </h2>
               <p className="mb-6 text-secondaryText">
-                Comprehensive online services for micro and small engineering
-                firms and professionals.
+                Comprehensive online services for micro and small business.
               </p>
             </div>
             <div className="flex flex-wrap flex-col lg:flex-row -mx-4 items-stretch mt-20">
