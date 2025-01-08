@@ -20,7 +20,7 @@ const FAQData = [
   {
     question: "Who provides the content for the website?",
     answer:
-      `We handle all aspects of content creation, saving you time and ensuring professional, SEO-optimized results. Our services cover everything from writing compelling copy and selecting relevant visuals to optimizing your content for search engines.But if you prefer to create your own content, you retain full control and can leverage your existing resources. We'll provide support with formatting and optimization to maximize its effectiveness.`,
+      `We handle all aspects of content creation, saving you time and ensuring professional, SEO-optimized results. Our services cover everything from writing compelling copy and selecting relevant visuals to optimizing your content for search engines. But if you prefer to create your own content, you retain full control and can leverage your existing resources. We'll provide support with formatting and optimization to maximize its effectiveness.`,
   },
 ];
 

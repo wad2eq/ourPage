@@ -5,6 +5,7 @@ import "@fontsource/inter/600.css";
 import "@fontsource/inter/700.css";
 import "@fontsource/inter/800.css";
 import "@fontsource/inter/900.css";
+import Cookie from "../components/elemets/Cookie.astro";
 
 export interface Props {
   title: string;
@@ -49,5 +50,6 @@ const { title } = Astro.props;
         scroll-behavior: smooth !important;
       }
     </style>
+    <Cookie />
   </body>
 </html>
