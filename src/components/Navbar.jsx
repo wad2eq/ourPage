@@ -12,7 +12,7 @@ const navbarLinks = [
 ];
 
 const pageData ={
-  email: "hello@nazwa.www"
+  email: "hello@webdevagency.eu"
 }
 
 export const Navbar = () => {
@@ -63,7 +63,6 @@ export const Navbar = () => {
            bg-bgDark2 hover:bg-bgDark3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
               aria-label="contact"
               href={`mailto:${pageData.email}`}
-              onClick={() => setIsModalOpes(true)}
             >
               <span className="pt-px font-bold text-rose-300">{pageData.email}</span>
             </a>

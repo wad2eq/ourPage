@@ -10,6 +10,11 @@ export const Footer = () => {
             <div className="flex justify-center lg:justify-start items-center grow basis-0">
             <OurBrand/>
             </div>
+            <nav>
+              <ul className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem] text-gray-400 leading-loose text-center lg:text-left mx-auto lg:mx-0">
+                <li><a href="/privacy-policy/">Private and Policy</a> </li>
+              </ul>
+            </nav>
             <p className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem] text-gray-400 leading-loose text-center lg:text-left mx-auto lg:mx-0">
               We design and develop modern, responsive, and SEO-friendly websites. Personalized approach and competitive
               pricing. Check out our offer!
