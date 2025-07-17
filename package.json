@@ -18,10 +18,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/sitemap": "^3.4.1",
+    "@astrojs/tailwind": "^6.0.2",
     "@fontsource/inter": "^5.0.18",
     "@jop-software/astro-cookieconsent": "^3.0.1",
-    "astro": "^4.9.2",
+    "astro": "^5.11.2",
     "astro-robots": "^2.3.1",
     "framer-motion": "^11.2.10",
     "npm": "^10.8.1",
@@ -30,7 +31,7 @@
     "vanilla-cookieconsent": "^3.0.1"
   },
   "devDependencies": {
-    "@astrojs/react": "^3.4.0",
+    "@astrojs/react": "^4.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   }

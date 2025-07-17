@@ -6,13 +6,9 @@ import robots from "astro-robots";
 import jopSoftwarecookieconsent from "@jop-software/astro-cookieconsent";
 import cookieconsent from "@jop-software/astro-cookieconsent";
 
-export default defineConfig({
-  integrations: [
-    react(),
-    tailwind(),
-    robots(),
-    jopSoftwarecookieconsent({
+import sitemap from "@astrojs/sitemap";
 
-    }),
-  ],
+export default defineConfig({
+  site:'https://www.webdevagency.eu/',
+  integrations: [react(), tailwind(), robots(), jopSoftwarecookieconsent({}), sitemap()],
 });
